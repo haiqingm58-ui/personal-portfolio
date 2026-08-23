@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const title = '你的名字｜个人作品集';
-const description = '设计 × 技术 × 产品思维。把复杂问题，设计成清晰、可用的数字体验。';
+const title = '@haiqingm58-ui｜AI 产品与工程作品集';
+const description = 'HumanTwin AI、智慧教学平台、GeoRisk 与开源项目：从产品构想到真实部署。';
 const siteUrl = new URL('https://haiqingm58-ui.github.io/personal-portfolio/');
 const socialImage = new URL('og.png', siteUrl).toString();
 
@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   metadataBase: siteUrl,
   title,
   description,
+  authors: [{ name: '@haiqingm58-ui', url: 'https://github.com/haiqingm58-ui' }],
+  creator: '@haiqingm58-ui',
+  keywords: ['AI 产品', 'Flutter', 'React', 'FastAPI', 'RAG', '知识图谱', '个人作品集'],
   alternates: {
     canonical: '/',
   },
@@ -17,14 +20,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'zh_CN',
     url: siteUrl,
+    siteName: '@haiqingm58-ui 作品集',
     title,
     description,
     images: [
       {
         url: socialImage,
-        width: 1733,
-        height: 908,
-        alt: '把复杂问题，设计成清晰体验。你的名字个人作品集',
+        width: 1200,
+        height: 630,
+        alt: 'AI × 工程 × 真实场景，@haiqingm58-ui 项目作品集',
       },
     ],
   },
@@ -33,6 +37,10 @@ export const metadata: Metadata = {
     title,
     description,
     images: [socialImage],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
