@@ -138,31 +138,19 @@ function FoundationVisual() {
 
 function GeoRiskVisual() {
   return (
-    <div
-      className="project-visual visual-georisk"
-      role="img"
-      aria-label="GeoRisk 地质灾害 RAG 与知识图谱概念视觉"
-    >
-      <div className="geo-topline">
-        <span>GEO KNOWLEDGE SYSTEM</span>
-        <span>RISK / EVIDENCE / DECISION</span>
+    <div className="project-visual visual-georisk">
+      <div className="browser-frame georisk-browser">
+        <div className="browser-bar" aria-hidden="true">
+          <i /><i /><i /><span>georisklab.com.cn / 当前公开首页</span>
+        </div>
+        <img
+          src="projects/georisk-home.jpg"
+          alt="GeoRisk 地质灾害知识图谱当前公开首页，展示标准浏览、知识点检索与专题图谱构建入口"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
-      <div className="geo-network" aria-hidden="true">
-        <span className="geo-ring geo-ring-a" />
-        <span className="geo-ring geo-ring-b" />
-        <span className="geo-line geo-line-a" />
-        <span className="geo-line geo-line-b" />
-        <i className="geo-node node-a" />
-        <i className="geo-node node-b" />
-        <i className="geo-node node-c" />
-        <i className="geo-node node-d" />
-        <strong>GeoRisk</strong>
-      </div>
-      <div className="geo-legend" aria-hidden="true">
-        <span>RAG 检索</span><i />
-        <span>知识图谱</span><i />
-        <span>来源证据</span>
-      </div>
+      <span className="visual-note">CURRENT PUBLIC HOME / 2026.08</span>
     </div>
   );
 }
