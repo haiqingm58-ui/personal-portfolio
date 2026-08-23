@@ -3,8 +3,8 @@ import './globals.css';
 
 const title = '你的名字｜个人作品集';
 const description = '设计 × 技术 × 产品思维。把复杂问题，设计成清晰、可用的数字体验。';
-const siteUrl = new URL('https://clear-experience-portfolio.hq-space-0437.chatgpt.site');
-const socialImage = new URL('/og.png', siteUrl).toString();
+const siteUrl = new URL('https://haiqingm58-ui.github.io/personal-portfolio/');
+const socialImage = new URL('og.png', siteUrl).toString();
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,

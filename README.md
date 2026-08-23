@@ -6,7 +6,7 @@
 
 ## 在线访问
 
-[打开作品集](https://clear-experience-portfolio.hq-space-0437.chatgpt.site)
+[打开作品集](https://haiqingm58-ui.github.io/personal-portfolio/)
 
 ## 页面内容
 
